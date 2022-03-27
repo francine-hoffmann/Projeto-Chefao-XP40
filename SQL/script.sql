@@ -1,4 +1,4 @@
--- MySQL Workbench Forward Engineering
+--- MySQL Workbench Forward Engineering
 
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS `teste`.`produto` (
     FOREIGN KEY (`Categoria_codigo`)
     REFERENCES `teste`.`categoria` (`codigo`))
 ENGINE = InnoDB
-AUTO_INCREMENT = 4
+AUTO_INCREMENT = 25
 DEFAULT CHARACTER SET = utf8mb3;
 
 
@@ -73,6 +73,25 @@ CREATE TABLE IF NOT EXISTS `teste`.`carrosel` (
   `idcarrosel` INT NOT NULL,
   `link_imagem` VARCHAR(300) NULL DEFAULT NULL,
   PRIMARY KEY (`idcarrosel`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb3;
+
+
+-- -----------------------------------------------------
+-- Table `teste`.`categoria_produto`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `teste`.`categoria_produto` (
+  `categoria_codigo` INT NOT NULL,
+  `produto_codigo` INT NOT NULL,
+  PRIMARY KEY (`categoria_codigo`, `produto_codigo`),
+  INDEX `fk_categoria_has_produto_produto1_idx` (`produto_codigo` ASC) VISIBLE,
+  INDEX `fk_categoria_has_produto_categoria1_idx` (`categoria_codigo` ASC) VISIBLE,
+  CONSTRAINT `fk_categoria_has_produto_categoria1`
+    FOREIGN KEY (`categoria_codigo`)
+    REFERENCES `teste`.`categoria` (`codigo`),
+  CONSTRAINT `fk_categoria_has_produto_produto1`
+    FOREIGN KEY (`produto_codigo`)
+    REFERENCES `teste`.`produto` (`codigo`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb3;
 
