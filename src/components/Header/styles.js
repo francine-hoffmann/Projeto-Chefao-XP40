@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-    background-color: #49065e;
+    background: transparent;
     height: 12vh;
+    display: flex;
+    width: fit-content;
 `;
 
 export const Wrapper = styled.div`
@@ -17,7 +19,10 @@ export const Wrapper = styled.div`
 `;
 
 export const Logo = styled.h1`
-  color: #fff;
+  color: #65e369;
+  margin-right: 44vw;
+  justify-content: flex-start;
+  margin-left: 1vw;
 `;
 export const Menu = styled.nav`
   display: flex;
@@ -26,7 +31,8 @@ export const Menu = styled.nav`
   gap: 20px;
 `;
 
-export const Link = styled.a`
-  color: #fff;
+export const Page = styled.a`
+  color: #65e369;
   text-decoration: none;
+
 `;
