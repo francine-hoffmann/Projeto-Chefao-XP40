@@ -1,0 +1,37 @@
+/* .card1 {    
+    margin-left: 8vw;
+}
+
+.card2 {
+    margin-left: 8vw;
+} */
+
+.main {
+    display: block;
+}
+
+.image {
+    background-color: crimson;
+}
+
+.card1 {
+    background-color: brown;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.card3 {
+    margin-right: 5vw;
+    gap: 5vw;
+    background-color: coral;
+    width: 30vw;
+}
