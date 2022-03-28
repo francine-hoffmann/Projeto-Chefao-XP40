@@ -14,12 +14,12 @@ function Footer() {
                 <h6>Whatsapp (00) 0-0000-0000</h6>
                 <h6>E-mail: atendimento@natugama.com.br</h6>
             </div>
-            <div>
+            <div className='boxs'>
                 <h3>INFORMAÇÕES</h3>
                 <ul>
-                    <li><a href='#'>Sobre nós</a></li>
+                    <li><a href='../Sobre' target='_blank'>Sobre nós</a></li>
                     <li><a href='#'>Trocas e devoluções</a></li>
-                    <li><a href='#'>Perguntas e respostas frequenstes</a></li>
+                    <li><a href='#'>Perguntas e respostas frequentes</a></li>
                     <li><a href='#'>Termos de uso</a></li>
                 </ul>
             </div>
