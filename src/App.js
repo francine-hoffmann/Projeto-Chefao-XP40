@@ -3,6 +3,7 @@ import GlobalStyles from './assets/styles/Global'
 import Sobre from './pages/Sobre';
 import Home from './pages/Home'
 import Produtos from './pages/Produtos'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home/>
       <Sobre/>
       <Produtos/>
+      <Footer />
     </div>
   );
 }

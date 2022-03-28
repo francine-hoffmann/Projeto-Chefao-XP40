@@ -3,37 +3,43 @@ import './styles.css'
 
 function Footer() {
     return (
-        <footer>
-            <div className="boxs">
-                <h3>CONTATO</h3> 
-                <h6>Horário de funcionamento</h6>
-                <p>Segunda a Sexta: 0h ás 0h;</p>
-                <p>Sábados e feriádos: 0h ás 0h;</p>
-                <p>Domingos: 0h ás 0h;</p>
-                <h6>Central de atendimento: (00) 0000-0000</h6>
-                <h6>Whatsapp (00) 0-0000-0000</h6>
-                <h6>E-mail: atendimento@natugama.com.br</h6>
-            </div>
-            <div className='boxs'>
-                <h3>INFORMAÇÕES</h3>
-                <ul>
-                    <li><a href='../Sobre' target='_blank'>Sobre nós</a></li>
-                    <li><a href='#'>Trocas e devoluções</a></li>
-                    <li><a href='#'>Perguntas e respostas frequentes</a></li>
-                    <li><a href='#'>Termos de uso</a></li>
-                </ul>
-            </div>
-            <div className='social'>
-            <ul>
-                <li><FaFacebook /></li>
-                <li><FaInstagram /></li>
-                <li><FaWhatsapp /></li>
-            </ul>
-            </div>
-            <p>
-                &copy; 2022 <spam>Natugama Cosméticos Naturais LTDA</spam>
-            </p>
+        <body>
+            <footer className="footer">
+                <div className='container'>
+                    <div className='box'>
+                        <h4> CONTATO </h4>
+                        <p>Horário de funcionamento</p>
+                        <li>Segunda a Sexta: 0h ás 0h;</li>
+                        <li>Sábados e feriádos: 0h ás 0h;</li>
+                        <li>Domingos: 0h ás 0h.</li>
+                        <p>Central de atendimento: (00) 0000-0000</p>
+                        <p>Whatsapp (00) 0-0000-0000</p>
+                        <p>E-mail: atendimento@natugama.com.br</p>
+                    </div>    
+                    <div className='footer_col'>
+                        <h4> INFORMAÇÕES </h4>
+                            <ul>
+                                <li><a href='../Sobre' target='_blank'>Sobre nós</a></li>
+                                <li><a href='_'>Trocas e devoluções</a></li>
+                                <li><a href='_'>Perguntas e respostas frequentes</a></li>
+                                <li><a href='_'>Termos de uso</a></li>
+                            </ul>
+                    </div>
+                    <div className='footer_col'>
+                        <ul className='social_links'>
+                            <a href='https://www.facebook.com'  target='_blank' rel="noreferrer"><li><FaFacebook /></li></a>
+                            <a href='https://www.instagram.com' target='_blank' rel="noreferrer"><li><FaInstagram /></li></a>
+                            <a href='https://web.whatsapp.com'  target='_blank' rel="noreferrer"><li><FaWhatsapp /></li></a>
+                        </ul>
+                    </div>
+                    
+                </div>   
+                    <p className='copy'>
+                       <br></br>&copy; 2022 <spam>Natugama Cosméticos Naturais LTDA</spam>
+                    </p>
         </footer>
+        </body>
+        
     )
      
 }
