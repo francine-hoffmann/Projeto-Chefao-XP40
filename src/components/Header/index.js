@@ -15,7 +15,7 @@ function Header() {
               <Link to='sobre' class="nav-link">SOBRE NÓS</Link>
             </li>
             <li class="nav-item">
-              <Link to='/produtos' class="nav-link">PRODUTOS</Link>
+              <Link to='../../pages/Produtos' class="nav-link">PRODUTOS</Link>
             </li>
             <li class="nav-item">
               <Link to='onde-comprar' class="nav-link">ONDE COMPRAR</Link>
