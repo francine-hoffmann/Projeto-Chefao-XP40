@@ -1,11 +1,14 @@
 import React from "react";
 import { Wrapper } from "../../components/Header/styles";
+import './sobre.css';
 
 function Sobre() {
   return (
-    <div>
-      <Wrapper>
-        <div className="container"></div>
+    <div className="main">
+      <div className="image">
+        <p>image goes here</p>
+      </div>
+        
         <div className="card1">
           <h1>SOBRE NÓS</h1>
           <p>
@@ -16,6 +19,7 @@ function Sobre() {
           </p>
         </div>
         <div className="card2">
+        <div className="card3">
           <h2>TÍTULO 1</h2>
           <p>
             Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz
@@ -24,7 +28,7 @@ function Sobre() {
             et per.Cevadis im ampola pa arma uma pindureta.
           </p>
         </div>
-        <div className="card2">
+        <div className="card3">
           <h2>TÍTULO 2</h2>
           <p>
             Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz
@@ -33,7 +37,9 @@ function Sobre() {
             et per.Cevadis im ampola pa arma uma pindureta.
           </p>
         </div>
-      </Wrapper>
+        </div>
+        
+      
     </div>
   );
 }
