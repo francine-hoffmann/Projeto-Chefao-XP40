@@ -1,12 +1,16 @@
 
 
-export default function Bolinhas(props) {
+
+function Bolinhas ({imagem, nomeProduto, variante, nomeLink}){
     return (
         <main>
-             <h1> {props.titulo} </h1>
-                <section>
-                    <a href="#" > {props.texto} </a>
-                </section>
+            <img src={imagem} alt={nomeProduto} className={variante} />
+            
+            <a href="/"> {nomeLink} </a>
         </main>
-    );
+    )
+
+
 }
+
+export default Bolinhas 
