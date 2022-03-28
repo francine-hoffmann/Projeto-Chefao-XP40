@@ -1,6 +1,3 @@
-
-
-
 function Bolinhas ({imagem, nomeProduto, variante, nomeLink}){
     return (
         <main>

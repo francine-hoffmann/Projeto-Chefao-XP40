@@ -3,6 +3,7 @@ import GlobalStyles from './assets/styles/Global'
 import Sobre from './pages/Sobre';
 import Home from './pages/Home'
 import Footer from './components/Footer';
+import Produtos from './pages/Produtos'
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
       <GlobalStyles />      
       <Routes />
       <Home/>
-      <Footer />
+      <Footer/>
+      <Sobre/>
+      <Produtos/>
     </div>
   );
 }

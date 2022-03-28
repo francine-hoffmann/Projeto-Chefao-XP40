@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
 
-export const imagem = styled.img `
-    border-radius: src(${img});
+export const imagem1 = styled.img `
+    ${({variante}) => imagem1 && `border-radius: 100px;`}
 `
