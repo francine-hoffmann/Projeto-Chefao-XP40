@@ -4,13 +4,15 @@
 }
 
 .image {
-    background-color: crimson;
+    background-color: #bbf1bd;
+    height: 42vh;
 }
 
 .card1 {
     background-color: brown;
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-top: 5vh;
 }
 
 .card2 {
@@ -20,11 +22,13 @@
     align-content: center;
     justify-content: space-around;
     background-color: blue;
+    margin-top: 5vh;
 }
 
 .card3 {
-    margin-right: 5vw;
-    gap: 5vw;
+    margin-left: 1vw;
+    margin-right: 2vw;
+    gap: 3vw;
     background-color: coral;
     width: 30vw;
 }
