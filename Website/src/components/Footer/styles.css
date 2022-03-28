@@ -1,7 +1,33 @@
-.boxs{
-     background-color: green;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.social{
-    background-color: green;
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    vertical-align: auto;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: rgb(1, 51, 1);
+    padding: 70px 0;
+    color: white;
+}
+
+.copy {
+    text-align: center; 
+}
+
+.social_links{
+    display: flex;
+    gap: 15px;
+    font-size: 50px;
 }
