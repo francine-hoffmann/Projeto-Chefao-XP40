@@ -9,9 +9,9 @@ function Footer() {
                     <div className='box'>
                         <h4> CONTATO </h4>
                         <p>Horário de funcionamento</p>
-                        <li>Segunda a Sexta: 0h ás 0h;</li>
-                        <li>Sábados e feriádos: 0h ás 0h;</li>
-                        <li>Domingos: 0h ás 0h.</li>
+                        <li>Segunda a Sexta: 0h às 0h;</li>
+                        <li>Sábados e feriádos: 0h às 0h;</li>
+                        <li>Domingos: 0h às 0h.</li>
                         <p>Central de atendimento: (00) 0000-0000</p>
                         <p>Whatsapp (00) 0-0000-0000</p>
                         <p>E-mail: atendimento@natugama.com.br</p>
