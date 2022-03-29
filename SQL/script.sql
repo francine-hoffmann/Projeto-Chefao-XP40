@@ -8,19 +8,19 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- Schema mydb
 -- -----------------------------------------------------
 -- -----------------------------------------------------
--- Schema teste
+-- Schema chefao
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema teste
+-- Schema chefao
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `teste` DEFAULT CHARACTER SET utf8 ;
-USE `teste` ;
+CREATE SCHEMA IF NOT EXISTS `chefao` DEFAULT CHARACTER SET utf8 ;
+USE `chefao` ;
 
 -- -----------------------------------------------------
--- Table `teste`.`categoria`
+-- Table `chefao`.`categoria`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `teste`.`categoria` (
+CREATE TABLE IF NOT EXISTS `chefao`.`categoria` (
   `codigo` INT NOT NULL,
   `nome` VARCHAR(50) NOT NULL,
   `link_imagem` VARCHAR(300) NULL DEFAULT NULL,
@@ -30,28 +30,23 @@ DEFAULT CHARACTER SET = utf8mb3;
 
 
 -- -----------------------------------------------------
--- Table `teste`.`produto`
+-- Table `chefao`.`produto`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `teste`.`produto` (
+CREATE TABLE IF NOT EXISTS `chefao`.`produto` (
   `codigo` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(100) NULL DEFAULT NULL,
   `descricao` TEXT NULL DEFAULT NULL,
   `link_imagem` VARCHAR(300) NULL DEFAULT NULL,
-  `Categoria_codigo` INT NOT NULL,
-  PRIMARY KEY (`codigo`),
-  INDEX `fk_Produto_Categoria_idx` (`Categoria_codigo` ASC) VISIBLE,
-  CONSTRAINT `fk_Produto_Categoria`
-    FOREIGN KEY (`Categoria_codigo`)
-    REFERENCES `teste`.`categoria` (`codigo`))
+  PRIMARY KEY (`codigo`))
 ENGINE = InnoDB
 AUTO_INCREMENT = 25
 DEFAULT CHARACTER SET = utf8mb3;
 
 
 -- -----------------------------------------------------
--- Table `teste`.`avaliacoes`
+-- Table `chefao`.`avaliacoes`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `teste`.`avaliacoes` (
+CREATE TABLE IF NOT EXISTS `chefao`.`avaliacoes` (
   `id` INT NOT NULL,
   `nome` VARCHAR(45) NULL DEFAULT NULL,
   `link_imagem` VARCHAR(300) NULL DEFAULT NULL,
@@ -61,15 +56,15 @@ CREATE TABLE IF NOT EXISTS `teste`.`avaliacoes` (
   INDEX `fk_avaliacoes_Produto1_idx` (`Produto_codigo` ASC) VISIBLE,
   CONSTRAINT `fk_avaliacoes_Produto1`
     FOREIGN KEY (`Produto_codigo`)
-    REFERENCES `teste`.`produto` (`codigo`))
+    REFERENCES `chefao`.`produto` (`codigo`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb3;
 
 
 -- -----------------------------------------------------
--- Table `teste`.`carrosel`
+-- Table `chefao`.`carrosel`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `teste`.`carrosel` (
+CREATE TABLE IF NOT EXISTS `chefao`.`carrosel` (
   `idcarrosel` INT NOT NULL,
   `link_imagem` VARCHAR(300) NULL DEFAULT NULL,
   PRIMARY KEY (`idcarrosel`))
@@ -78,9 +73,9 @@ DEFAULT CHARACTER SET = utf8mb3;
 
 
 -- -----------------------------------------------------
--- Table `teste`.`categoria_produto`
+-- Table `chefao`.`categoria_produto`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `teste`.`categoria_produto` (
+CREATE TABLE IF NOT EXISTS `chefao`.`categoria_produto` (
   `categoria_codigo` INT NOT NULL,
   `produto_codigo` INT NOT NULL,
   PRIMARY KEY (`categoria_codigo`, `produto_codigo`),
@@ -88,18 +83,18 @@ CREATE TABLE IF NOT EXISTS `teste`.`categoria_produto` (
   INDEX `fk_categoria_has_produto_categoria1_idx` (`categoria_codigo` ASC) VISIBLE,
   CONSTRAINT `fk_categoria_has_produto_categoria1`
     FOREIGN KEY (`categoria_codigo`)
-    REFERENCES `teste`.`categoria` (`codigo`),
+    REFERENCES `chefao`.`categoria` (`codigo`),
   CONSTRAINT `fk_categoria_has_produto_produto1`
     FOREIGN KEY (`produto_codigo`)
-    REFERENCES `teste`.`produto` (`codigo`))
+    REFERENCES `chefao`.`produto` (`codigo`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb3;
 
 
 -- -----------------------------------------------------
--- Table `teste`.`contato`
+-- Table `chefao`.`contato`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `teste`.`contato` (
+CREATE TABLE IF NOT EXISTS `chefao`.`contato` (
   `idContato` INT NOT NULL,
   `nome` VARCHAR(45) NULL DEFAULT NULL,
   `email` VARCHAR(45) NOT NULL,
@@ -111,9 +106,9 @@ DEFAULT CHARACTER SET = utf8mb3;
 
 
 -- -----------------------------------------------------
--- Table `teste`.`newsletter`
+-- Table `chefao`.`newsletter`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `teste`.`newsletter` (
+CREATE TABLE IF NOT EXISTS `chefao`.`newsletter` (
   `idNewsletter` INT NOT NULL,
   `nome` VARCHAR(45) NULL DEFAULT NULL,
   `email` VARCHAR(45) NULL DEFAULT NULL,
