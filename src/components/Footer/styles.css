@@ -9,12 +9,9 @@
     justify-content: space-between;
     gap: 20px;
     vertical-align: auto;
-    
 }
 
-ul{
-    list-style: none;
-}
+
 
 .footer{
     background-color: rgb(1, 51, 1);
@@ -30,4 +27,13 @@ ul{
     display: flex;
     gap: 15px;
     font-size: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+.info > ul{
+    display: flex;
+    flex-direction: column;
 }

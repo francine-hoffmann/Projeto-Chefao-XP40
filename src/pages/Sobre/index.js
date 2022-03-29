@@ -1,7 +1,6 @@
 import React from "react";
-import { Wrapper } from "../../components/Header/styles";
 import "./sobre.css";
-import Footer from '../../components/Footer';
+
 
 function Sobre() {
   return (
@@ -39,7 +38,7 @@ function Sobre() {
           </p>
         </div>
       </div>   
-      <Footer/>   
+        
     </div>
   );
 }
