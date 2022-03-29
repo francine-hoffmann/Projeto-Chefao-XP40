@@ -4,18 +4,20 @@ const Produtos = require("./Produtos");
 const Categorias = require("./Categorias");
 
 const CategoriaProduto = db.define('CategoriaProduto', {
-    produto_id: {
+    produtoId: {
         type: DataTypes.INTEGER,
         references: {
             model: Produtos,
             key: 'id',
+            onDelete: 'cascade',
         },
     },
-    categoria_id: {
+    categoriaId: {
         type: DataTypes.INTEGER,
         references: {
             model: Categorias,
             key: 'id',
+            onDelete: 'cascade',
         },
     },
     createdAt: {

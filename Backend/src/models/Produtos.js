@@ -17,13 +17,6 @@ const Produtos = db.define('Produtos', {
     link_imagem: {
         type: DataTypes.STRING,
     },
-    CategoriaId: {
-        type: DataTypes.INTEGER,
-        references: {
-            models: Categorias,
-            key: "CategoriaId"
-        },
-    },
     createdAt: {
         type: DataTypes.DATE,
     },

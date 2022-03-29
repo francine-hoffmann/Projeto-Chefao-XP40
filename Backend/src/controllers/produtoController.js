@@ -1,5 +1,6 @@
 const { Produtos} = require('../models');
 const { Categorias } = require('../models');
+const { CategoriaProduto } = require('../models');
 
 const produtoController = {
     listarProduto: async (req, res) => {
@@ -8,6 +9,8 @@ const produtoController = {
             {
                 include: Categorias
             });
+
+        
 
         res.json(listaDeProdutos);
     },
@@ -25,12 +28,12 @@ const produtoController = {
     listarProdutoPorCategoria: async (req, res) => {
         try {
         const { CategoriaId } = req.params;
-        console.log(CategoriaId)
 
         const listaDeProdutos = await Produtos.findAll({
-            where: {
-                CategoriaId: CategoriaId
-            }})
+            include: [{
+                model: Categorias,
+                where: {id: CategoriaId},
+            }]})
 
         res.json(listaDeProdutos);
         }
@@ -46,8 +49,13 @@ const produtoController = {
             nome,
             descricao,
             imagem,
-            CategoriaId
         });
+
+        const categoria = await Categorias.findByPk(CategoriaId)
+        console.log(CategoriaId);
+        console.log(categoria);
+
+        await novoProduto.setCategorias(categoria);
 
         res.status(201).json(novoProduto);
     },    
