@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <GlobalStyles />      
       <Routes />
-      <Home/>
+      {/* <Home/>
       <Produtos/>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

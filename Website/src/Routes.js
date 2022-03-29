@@ -2,6 +2,9 @@ import { BrowserRouter, Routes as RoutesWrapper, Route } from 'react-router-dom'
 import Header from './components/Header';
 import Sobre from './pages/Sobre';
 import Newsletter from './pages/Newsletter';
+import Home from './pages/Home';
+import Produtos from './pages/Produtos';
+import Footer from './components/Footer';
 
 function Routes() {
     return (
@@ -10,7 +13,9 @@ function Routes() {
             <RoutesWrapper>
                 <Route path='/sobre' element={<Sobre />} />
                 <Route path='/newsletter' element={<Newsletter />} />
-            </RoutesWrapper>
+                <Route path='/' element={<Home />} />
+                <Route path='/produtos' element={<Produtos />} />
+            </RoutesWrapper>      
         </BrowserRouter>
     )
 }
