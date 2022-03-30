@@ -2,12 +2,14 @@ import React from "react";
 import { Wrapper } from "../../components/Header/styles";
 import "./sobre.css";
 import Footer from '../../components/Footer';
+import Group142 from '../../assets/image/Group142.png';
+
 
 function Sobre() {
   return (
     <div className="body">
       <div className="image">
-        <p>image goes here</p>
+        {/* <img src={Group142} alt='Background Image' /> */}
       </div>
 
       <div className="card1">

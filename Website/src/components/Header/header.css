@@ -4,13 +4,34 @@
     margin-top: 2vh;
     background: transparent;
     height: fit-content;
+    /* background-color: green; */
+    align-items: center;
+    padding-top: 5vh;
+    position: absolute;
+    width: 100%;
 }
 
 .menu {
     display: flex;
 }
 
+.logo {
+    margin-left: 2vw;
+}
+
 ul {
     display: flex;
-    gap: 1vw;
+    gap: 2vw;
+    margin-right: 2vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
 }

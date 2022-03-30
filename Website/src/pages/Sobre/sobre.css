@@ -1,18 +1,24 @@
 
 .body {
-    display: block;
+    display: block;   
+    background-image: url(../../assets/image/Group142.png); 
+    background-repeat: no-repeat;
 }
 
 .image {
-    background-color: #bbf1bd;
-    height: 42vh;
+    /* background-image: url(../../assets/image/Group\ 142.png); */
+    height: 500px;
+    width: 1440px;
 }
 
 .card1 {
     background-color: brown;
-    margin-left: 5vw;
+    margin-left: 6vw;
     margin-right: 5vw;
     margin-top: 5vh;
+    width: 1170px;
+    height: 210px;
+    margin-top: 9vh;
 }
 
 .card2 {
@@ -22,13 +28,15 @@
     align-content: center;
     justify-content: space-around;
     background-color: blue;
-    margin-top: 5vh;
+    margin-top: 9vh;
+    margin-bottom: 9vh;
 }
 
 .card3 {
     margin-left: 1vw;
     margin-right: 2vw;
-    gap: 3vw;
+    gap: 1vw;
     background-color: coral;
-    width: 30vw;
+    width: 490px;
+    height: 150px;
 }
