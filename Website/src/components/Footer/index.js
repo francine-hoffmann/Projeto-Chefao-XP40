@@ -16,7 +16,7 @@ function Footer() {
                         <p>Whatsapp (00) 0-0000-0000</p>
                         <p>E-mail: atendimento@natugama.com.br</p>
                     </div>    
-                    <div className='footer_col'>
+                    <div className='info'>
                         <h4> INFORMAÇÕES </h4>
                             <ul>
                                 <li><a href='../Sobre' target='_blank'>Sobre nós</a></li>
@@ -25,7 +25,7 @@ function Footer() {
                                 <li><a href='_'>Termos de uso</a></li>
                             </ul>
                     </div>
-                    <div className='footer_col'>
+                    <div className='social'>
                         <ul className='social_links'>
                             <a href='https://www.facebook.com'  target='_blank' rel="noreferrer"><li><FaFacebook /></li></a>
                             <a href='https://www.instagram.com' target='_blank' rel="noreferrer"><li><FaInstagram /></li></a>

@@ -1,8 +1,6 @@
 import React from "react";
-import { Wrapper } from "../../components/Header/styles";
 import "./sobre.css";
-import Footer from '../../components/Footer';
-import Group142 from '../../assets/image/Group142.png';
+
 
 
 function Sobre() {
@@ -41,7 +39,7 @@ function Sobre() {
           </p>
         </div>
       </div>   
-      <Footer/>   
+        
     </div>
   );
 }

@@ -1,5 +1,4 @@
-import Footer from "../../components/Footer"
-import Header from "../../components/Header"
+
 
 function Produtos (){
     return(
@@ -35,7 +34,7 @@ function Produtos (){
             et per.Cevadis im ampola pa arma uma pindureta.
           
           
-            <Footer/>
+            
           </p>
         </main>
     )
