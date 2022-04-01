@@ -6,9 +6,10 @@
     height: fit-content;
     /* background-color: green; */
     align-items: center;
-    padding-top: 5vh;
+    padding-top: 3vh;
     position: absolute;
     width: 100%;
+    z-index: 100;
 }
 
 .menu {
