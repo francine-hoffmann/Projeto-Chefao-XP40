@@ -1,8 +1,6 @@
 import React from "react";
 import "./sobre.css";
 
-
-
 function Sobre() {
   return (
     <div className="body">
@@ -11,35 +9,32 @@ function Sobre() {
       </div>
 
       <div className="card1">
-        <h1>SOBRE NÓS</h1>
+        <h1>SOBRE MIM</h1>
         <p>
-          Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz malandris
-          se pirulitá.Interagi no mé, cursus quis, vehicula ac nisi.Admodum
-          accumsan disputationi eu sit. Vide electram sadipscing et per.Cevadis
-          im ampola pa arma uma pindureta.
+          Quase como uma crença, mais como um ato político, mas cuidadosa e
+          resiliente, eu, a Natugama, proponho uma nova visão sobre a relevância
+          no desenvolvimento de um produto natural que não comente nos cuide,
+          mas considere cuidados para a sua origem.
         </p>
+        <p>Ser sustentável não deve ser só uma ideia, e sim um propósito.</p>
       </div>
       <div className="card2">
         <div className="card3">
-          <h2>TÍTULO 1</h2>
+          <h2>Para o exterior</h2>
           <p>
-            Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz
-            malandris se pirulitá.Interagi no mé, cursus quis, vehicula ac
-            nisi.Admodum accumsan disputationi eu sit. Vide electram sadipscing
-            et per.Cevadis im ampola pa arma uma pindureta.
+            Sou especializada em embelezar e tratar seu eu físico com
+            biotecnologia e princípios ativos natuais. Sou tão natural quanto a
+            sua beleza ao decidir assumir o meu propósito.
           </p>
         </div>
         <div className="card3">
-          <h2>TÍTULO 2</h2>
+          <h2>Para o interior</h2>
           <p>
-            Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz
-            malandris se pirulitá.Interagi no mé, cursus quis, vehicula ac
-            nisi.Admodum accumsan disputationi eu sit. Vide electram sadipscing
-            et per.Cevadis im ampola pa arma uma pindureta.
+            Digo que o cuidado não pode desconsiderar que devemos estar em paz
+            com nós mesmos e, ainda mais, com a própria natureza.
           </p>
         </div>
-      </div>   
-        
+      </div>
     </div>
   );
 }

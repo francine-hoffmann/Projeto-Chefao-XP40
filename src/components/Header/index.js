@@ -13,7 +13,7 @@ function Header() {
           <Link to='/'>INÍCIO</Link>
           </li>
           <li>
-          <Link to='sobre'>SOBRE NÓS</Link>
+          <Link to='sobre'>SOBRE MIM</Link>
           </li>
           <li>
           <Link to='produtos'>PRODUTOS</Link>
