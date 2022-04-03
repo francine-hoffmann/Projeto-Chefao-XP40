@@ -31,6 +31,5 @@ const CategoriaProduto = db.define('CategoriaProduto', {
         tableName: 'categoria_produto',
     }
 );
-//teste
 
 module.exports = CategoriaProduto;

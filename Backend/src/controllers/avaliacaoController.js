@@ -9,6 +9,7 @@ const avaliacaoController = {
         res.json(listaDeAvaliacao);
            
     },
+
 listarAvaliacaoPorProduto: async (req, res) => {
     try {
     const { ProdutoId } = req.params;
@@ -18,7 +19,7 @@ listarAvaliacaoPorProduto: async (req, res) => {
             ProdutoId: ProdutoId
         },
     include: Produtos
-})
+    })
 
     res.json(listaDeProdutos);
     }
@@ -26,6 +27,16 @@ listarAvaliacaoPorProduto: async (req, res) => {
         return res.status(500).json('Ocorreu algum problema' + error);
     }
 },
+
+async cadastrarAvaliacao(req, res) {
+    const { nome, link_imagem } = req.body;
+
+    const novoAvaliacao = await Carrosel.create({
+        nome, link_imagem,
+    });
+
+    res.status(201).json(novoAvaliacao);
+    }
 };
 
 module.exports = avaliacaoController;

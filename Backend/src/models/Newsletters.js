@@ -1,13 +1,17 @@
 const db = require('../database');
-const { DataTypes } = require('sequelize');
+const { DataTypes } = require('sequelize'); 
 
-const Carrosel = db.define('Carrosel', {
+const Newsletters = db.define('Newsletters', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
-        autoIncrement: true,
+        autoIncrement: true
+        ,
     },
-    link_imagem: {
+    nome: {
+        type: DataTypes.STRING,
+    },
+    email: {
         type: DataTypes.STRING,
     },
     createdAt: {
@@ -18,7 +22,7 @@ const Carrosel = db.define('Carrosel', {
     },
 },
 {
-    tableName: 'carrosel'
+    tableName: 'newsletter',
 });
 
-module.exports = Carrosel;
+module.exports = Newsletters;
