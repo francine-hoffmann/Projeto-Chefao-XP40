@@ -27,10 +27,7 @@ const categoriaController = {
 
     async cadastrarCategoria(req, res) {
         try {
-            const {
-                nome,
-                link_imagem
-            } = req.body;
+            const { nome, link_imagem } = req.body;
 
             const novoCategoria = await Categorias.create({
                 nome,

@@ -64,6 +64,12 @@ const produtoController = {
         try {
         const { id } = req.params;
 
+            await CategoriaProduto.destroy({
+                where: {
+                    produtoId: id
+                }
+            });
+
         await Produtos.destroy({
             where: {
                 id,
@@ -93,7 +99,7 @@ const produtoController = {
             }
         });
 
-        res.json('Produto atualizado');
+        res.json(produtoAtualizado);
     },
 };
 

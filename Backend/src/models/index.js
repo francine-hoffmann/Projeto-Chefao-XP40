@@ -3,14 +3,8 @@ const Produtos = require('./Produtos');
 const Carrosel = require('./Carrosel');
 const Avaliacao = require('./Avaliacao');
 const CategoriaProduto = require('./CategoriaProduto');
-
-// Produtos.belongsTo(Categorias, {
-//     foreingkey: 'CategoriaId',
-// });
-
-// Categorias.hasMany(Produtos, {
-//     foreingKey: 'CategoriaId',
-// });
+const Newsletters = require('./Newsletters');
+const Contatos = require('./Contatos');
 
 Produtos.belongsToMany(Categorias, {
     foreingkey: 'categoriaId',
@@ -36,4 +30,7 @@ module.exports = {
     Produtos,
     Carrosel,
     Avaliacao,
+    Newsletters,
+    Contatos,
+    CategoriaProduto,
 };
