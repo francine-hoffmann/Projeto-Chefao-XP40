@@ -1,6 +1,7 @@
 import Carousel from "react-elastic-carousel";
 import { Carrossel, Titulo, Item, Image} from './style';
 import Imagem1 from '../../assets/image/modelo.jpeg'
+import BallComponent from '../BallComponent'
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -15,13 +16,15 @@ function MultiCarrossel() {
       <Titulo> RECOMENDADOS </Titulo>
       <Carrossel>
         <Carousel breakPoints={breakPoints} itemsToShow={4} >
-          <Item><Image src={Imagem1}/> </Item>
-          <Item><Image src={Imagem1}/> </Item>
-          <Item><Image src={Imagem1}/> </Item>
-          <Item><Image src={Imagem1}/> </Item>
-          <Item><Image src={Imagem1}/> </Item>
-          <Item><Image src={Imagem1}/> </Item>
-          <Item><Image src={Imagem1}/> </Item>
+          <Item><BallComponent image={Imagem1} label="Produto 1" size="small"/> </Item>
+          <Item><BallComponent image={Imagem1} label="Produto 1" size="medium"/> </Item>
+          <Item><BallComponent image={Imagem1} label="Produto 1" size="large"/> </Item>
+          <Item><BallComponent image={Imagem1} label="Produto 1" size="small"/> </Item>
+          <Item><BallComponent image={Imagem1} label="Produto 1" size="medium"/> </Item>
+          <Item><BallComponent image={Imagem1} label="Produto 1" size="large"/> </Item>
+          <Item><BallComponent image={Imagem1} label="Produto 1" size="small"/> </Item>
+          <Item><BallComponent image={Imagem1} label="Produto 1" size="medium"/> </Item>
+          <Item><BallComponent image={Imagem1} label="Produto 1" size="large"/> </Item>
         </Carousel>
       </Carrossel>
     </main>
