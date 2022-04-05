@@ -21,6 +21,6 @@ export const Item = styled.div `
 export const Image = styled.img `
     border-radius: 100%;
     width: 250px;
-
+    height: 250px;
 `
 
