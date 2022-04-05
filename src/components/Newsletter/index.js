@@ -13,9 +13,9 @@ function Newsletter() {
                     caixa de e-mail á toa.
                 </p>
                 <form method='POST'>
-                    Seu nome
+                    <p>Seu nome</p>
                     <input type='text' required></input>
-                    Seu e-mail
+                    <p>Seu e-mail</p>
                     <input type='email' required></input>
                     <br></br>
                     <button>Cadastar</button>
