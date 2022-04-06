@@ -27,13 +27,13 @@ function Home (){
                     )}
             </Wrapper> 
             <ContainerSeals>
-                <BallComponent image="\products\aromatizante.jpg" size="small"/> 
-                <BallComponent image="\products\aromatizante.jpg" size="small"/> 
-                <BallComponent image="\products\aromatizante.jpg" size="small"/> 
+                <BallComponent image="\images\products\aromatizante.jpg" size="small"/> 
+                <BallComponent image="\images\products\aromatizante.jpg" size="small"/> 
+                <BallComponent image="\images\products\aromatizante.jpg" size="small"/> 
             </ContainerSeals>           
             <Title> RECOMENDADOS </Title>
             <ProductCarousel/> 
-            <img src="\natugamabox.png"></img>
+            <img src="\images\natugamabox.png"></img>
             <Newsletter />
             
         </main>
