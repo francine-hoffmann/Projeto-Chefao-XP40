@@ -5,7 +5,7 @@ function BallComponent ({image, label, size, link}){
         case "small":
             return (
                 <a href={link}>
-                    <Small src="{image}" alt={label} />
+                    <Small src={image} alt={label} />
                     <Label>{label}</Label>
                 </a>  
             )
