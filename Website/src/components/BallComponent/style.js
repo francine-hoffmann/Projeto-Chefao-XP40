@@ -32,4 +32,5 @@ export const Label = styled.h3 `
     font-size: 16px;
     margin-top: 20px;
     text-align: center;
+    color: #000;
 `
