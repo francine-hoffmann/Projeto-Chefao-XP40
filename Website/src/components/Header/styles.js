@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-    background: transparent;
+    background: black;
     height: 12vh;
     display: flex;
     width: fit-content;
@@ -9,7 +9,7 @@ export const Container = styled.header`
 
 export const Wrapper = styled.div`
   position: fixed;
-  background: transparent;
+  background: black;
   max-width: 1140px;
   height: 100%;
   margin: 0 auto;
@@ -34,5 +34,4 @@ export const Menu = styled.nav`
 export const Page = styled.a`
   color: #65e369;
   text-decoration: none;
-
 `;
