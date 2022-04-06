@@ -1,4 +1,5 @@
-import {FaFacebook, FaInstagram, FaWhatsapp} from 'react-icons/fa';
+import { AiFillInstagram } from "react-icons/ai";
+import { RiWhatsappFill, RiFacebookCircleFill } from "react-icons/ri";
 import './styles.css'
 
 function Footer() {
@@ -27,9 +28,9 @@ function Footer() {
                     </div>
                     <div className='social'>
                         <ul className='social_links'>
-                            <a href='https://www.facebook.com'  target='_blank' rel="noreferrer"><li><FaFacebook /></li></a>
-                            <a href='https://www.instagram.com' target='_blank' rel="noreferrer"><li><FaInstagram /></li></a>
-                            <a href='https://web.whatsapp.com'  target='_blank' rel="noreferrer"><li><FaWhatsapp /></li></a>
+                        <a href='https://www.instagram.com' target='_blank' rel="noreferrer"><li><AiFillInstagram /></li></a>
+                        <a href='https://www.facebook.com'  target='_blank' rel="noreferrer"><li><RiFacebookCircleFill /></li></a>
+                        <a href='https://web.whatsapp.com'  target='_blank' rel="noreferrer"><li><RiWhatsappFill /></li></a>
                         </ul>
                     </div>
                     

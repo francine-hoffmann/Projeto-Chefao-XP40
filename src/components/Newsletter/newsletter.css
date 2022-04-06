@@ -1,39 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .newsletter {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 50px 8%;
+    justify-content: center;
+    padding: 50px 8px;
 }
 
-.newsletter form {
+.newsletter h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 29px;
     display: flex;
-    margin-top: 10px;
-    flex-direction: column;
     align-items: center;
+    text-align: center;
+    color: #2b2b2b;
 }
 
-.newsletter input {
+.newsletter h5 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    color: #2b2b2b;    
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    width: 400px;
+    border: none;
+    border-radius: 10px;
     outline: none;
-}
-
-h3 {
-    font-size:  1.8em;
-    font-size: 1.2em;
-}
-
-.newsletter form input {
-    width: 50%;
-    border-radius: 8px;
-    background-color: rgb(238, 237, 237);
-    border: 1px solid #fff ;
+    background-color: #f0edec;
+    border: 1px solid #fff;
     padding: 10px;
+    margin-top: -15px;
 }
 
-.newsletter form button {
-    width: 15%;
+form p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    color: #2b2b2b;
+}
+
+form button {
     padding: 8px;
     border-radius: 20px;
-    border:  2px solid rgb(1, 51, 1);
-    background-color: #fff;
+    border:  2px solid #2f5435;
+    background-color: #ffffff;
     cursor: pointer;
+}
+
+.formulario form button {
+    margin: auto;
+    display: flex; 
 }

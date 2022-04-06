@@ -12,7 +12,7 @@
 }
 
 .footer{
-    background-color: rgb(1, 51, 1);
+    background-color: #2f5435;
     padding: 70px 0;
     color: white;
     width: 100%;
@@ -35,10 +35,5 @@ ul {
 .info > ul{
     display: flex;
     flex-direction: column;
-}
-
-@media (max-width: 600px) {
-    .body {
-        width: 100%;
-    }
+    gap: 5px;
 }
