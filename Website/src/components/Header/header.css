@@ -1,12 +1,11 @@
 .main {
     display: flex;
     justify-content: space-between;
-    margin-top: 2vh;
-    background: transparent;
+    background: rgba(0,0,0,0.15);
     height: fit-content;
     /* background-color: green; */
     align-items: center;
-    padding-top: 3vh;
+    padding: 1vh 0vh;
     position: absolute;
     width: 100%;
     z-index: 100;

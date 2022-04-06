@@ -35,7 +35,7 @@ function Footer() {
                     
                 </div>   
                     <p className='copy'>
-                       <br></br>&copy; 2022 <spam>Natugama Cosméticos Naturais LTDA</spam>
+                       <br></br>&copy; 2022 <span>Natugama Cosméticos Naturais LTDA</span>
                     </p>
         </footer>
         </body>
