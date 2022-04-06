@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Title = styled.h2 `
     margin-left: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 50px 200px;
     color: #2F5435;
     font-size: 30px;
