@@ -6,7 +6,6 @@ function BallComponent ({image, label, size, link}){
             return (
                 <a href={link}>
                     <Small src={image} alt={label} />
-                    <Label>{label}</Label>
                 </a>  
             )
         default:
