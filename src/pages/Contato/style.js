@@ -25,7 +25,6 @@ min-height: 100vh;
     >.section-contato{
         width: 100%;
         >h3 {
-            font-family: 'Poppins';
             font-style: normal;
             font-weight: 500;
             font-size: 30px;
@@ -67,7 +66,6 @@ min-height: 100vh;
                 >div{
                     width: calc(100% - 40px);
                     >h3 {
-                        font-family: 'Poppins';
                         font-style: normal;
                         font-weight: 400;
                         font-size: 24px;
@@ -109,7 +107,6 @@ min-height: 100vh;
     align-items: flex-start;
     justify-content: space-around;
     >h3{
-        font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 24px;

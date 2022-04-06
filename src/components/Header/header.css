@@ -25,10 +25,13 @@ ul {
     margin-right: 2vw;
 }
 
+body, header, footer {
+    font-family: 'Poppins', sans-serif;
+}
+
 a {
     text-decoration: none;
     color: white;
-    font-family: 'Poppins', sans-serif;
 }
 
 a:hover {

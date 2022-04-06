@@ -21,7 +21,6 @@
     height: 210px;
     /* height: 17,5vh; */
     margin-top: 9vh;
-    font-family: 'Poppins', sans-serif;
 }
 
 .card1 h1 {
@@ -35,7 +34,6 @@
 }
 
 .card1 p {
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     /* font-size: 20px; */
     font-size: 1.25em;
@@ -52,12 +50,10 @@
     /* background-color: blue; */
     margin-top: 9vh;
     margin-bottom: 9vh;
-    font-family: 'Poppins', sans-serif;
 }
 
 .card2 h2 {
     color: #924D0D;
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     /* font-size: 24px; */
     font-size: 1.5em;
@@ -73,7 +69,6 @@
     width: 40vw;
     height: 150px;
     /* height: 12.25vh; */
-    font-family: 'Poppins', sans-serif;
 }
 
 .card3 h2 {
