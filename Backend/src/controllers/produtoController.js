@@ -4,19 +4,31 @@ const { CategoriaProduto } = require('../models');
 
 const produtoController = {
     listarProduto: async (req, res) => {
+        var limiteQuery = parseInt(req.query.limite);
+        var paginaquery = parseInt(req.query.pagina);
+
+        let pagina = 1
+        let limite = 10000
+        
+        if (!isNaN(paginaquery)) {
+            pagina = paginaquery;
+        }
+
+        if (!isNaN(limiteQuery)) {
+            limite = limiteQuery
+        }
 
         const listaDeProdutos = await Produtos.findAll(
             {
-                include: Categorias
+                include: Categorias, 
+                limit: limite,
+                offset: ((pagina - 1) * limite)
             });
-
-        
 
         res.json(listaDeProdutos);
     },
     listarProdutoPorNome: async (req, res) => {
         const { nome } = req.params;
-        console.log(nome)
 
         const listaDeProdutos = await Produtos.findOne({
             where: {
@@ -52,8 +64,7 @@ const produtoController = {
         });
 
         const categoria = await Categorias.findByPk(CategoriaId)
-        console.log(CategoriaId);
-        console.log(categoria);
+
 
         await novoProduto.setCategorias(categoria);
 

@@ -14,7 +14,6 @@ const categoriaController = {
     },
     listarCategoriaPorNome: async (req, res) => {
         const { nome } = req.params;
-        console.log(nome)
 
         const listaDeCategorias = await Categorias.findOne({
             where: {
