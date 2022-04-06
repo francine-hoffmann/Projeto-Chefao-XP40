@@ -13,7 +13,7 @@ function Sobre() {
         <p>
           Quase como uma crença, mais como um ato político, mas cuidadosa e
           resiliente, eu, a Natugama, proponho uma nova visão sobre a relevância
-          no desenvolvimento de um produto natural que não comente nos cuide,
+          no desenvolvimento de um produto natural que não somente nos cuide,
           mas considere cuidados para a sua origem.
         </p>
         <p>Ser sustentável não deve ser só uma ideia, e sim um propósito.</p>
