@@ -3,7 +3,7 @@ import ProductCarousel from "../../components/ProductCarousel";
 import Newsletter from "../../components/Newsletter";
 import Carousel from "../../components/Carousel";
 
-import { Title, Wrapper } from './style';
+import { Title, Wrapper, ContainerSeals } from './style';
 import BallComponent from "../../components/BallComponent";
 
 import React from "react";
@@ -25,9 +25,15 @@ function Home (){
                 {!categories ? "Carregando categorias..." : categories.map((categoria, index) => 
                     <BallComponent image={categoria.link_imagem} label={categoria.nome} size="medium" key={categoria.id}/> 
                     )}
-            </Wrapper>            
+            </Wrapper> 
+            <ContainerSeals>
+                <BallComponent image="\products\aromatizante.jpg" size="small"/> 
+                <BallComponent image="\products\aromatizante.jpg" size="small"/> 
+                <BallComponent image="\products\aromatizante.jpg" size="small"/> 
+            </ContainerSeals>           
             <Title> RECOMENDADOS </Title>
             <ProductCarousel/> 
+            <img src="\natugamabox.png"></img>
             <Newsletter />
             
         </main>

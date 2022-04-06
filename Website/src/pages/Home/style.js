@@ -13,4 +13,12 @@ export const Wrapper = styled.div `
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-gap: 50px 0px;
     padding: 0 300px;
+    padding-bottom: 50px;
+`
+
+export const ContainerSeals = styled.div `
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    padding: 20px 300px;
+    background-color: #F1F1F1;
 `
