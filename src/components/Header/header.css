@@ -35,3 +35,33 @@ a:hover {
     text-decoration: none;
     color: white;
 }
+
+@media only screen and (max-width: 650px) {
+    a {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    main {
+        height: auto;
+        justify-content: space-between;
+    }
+
+    menu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 50px;
+        width: 1000px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    a {
+        font-size: 0.9em;
+    }
+}
