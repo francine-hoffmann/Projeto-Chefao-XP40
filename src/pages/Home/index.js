@@ -1,7 +1,7 @@
 
 import ProductCarousel from "../../components/ProductCarousel";
-import imgHeader from  "../../assets/image/carousel1.png";
 import Newsletter from "../../components/Newsletter";
+import Carousel from "../../components/Carousel";
 
 import { Title, Wrapper } from './style';
 import BallComponent from "../../components/BallComponent";
@@ -19,13 +19,13 @@ function Home (){
 
     return(
         <main>
-            <img src={imgHeader}></img>
+            <Carousel></Carousel>
             <Title> PRODUTOS </Title>
             <Wrapper>
                 {!categories ? "Carregando categorias..." : categories.map((categoria, index) => 
                     <BallComponent image={categoria.link_imagem} label={categoria.nome} size="medium" key={categoria.id}/> 
                     )}
-            </Wrapper>
+            </Wrapper>            
             <Title> RECOMENDADOS </Title>
             <ProductCarousel/> 
             <Newsletter />
