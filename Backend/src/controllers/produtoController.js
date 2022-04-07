@@ -40,12 +40,27 @@ const produtoController = {
     listarProdutoPorCategoria: async (req, res) => {
         try {
         const { CategoriaId } = req.params;
+        var limiteQuery = parseInt(req.query.limite);
+        var paginaQuery = parseInt(req.query.pagina);
+
+        let pagina = 1
+        let limite = 10000
+
+        if(!isNaN(paginaQuery)){
+            pagina = paginaQuery;
+        }
+
+        if(!isNaN(limiteQuery)){
+            limite = limiteQuery;
+        }
 
         const listaDeProdutos = await Produtos.findAll({
             include: [{
                 model: Categorias,
-                where: {id: CategoriaId},
-            }]})
+                where: {id: CategoriaId}}],
+            limit: limite,
+            offset:((pagina - 1) * limite)
+            })
 
         res.json(listaDeProdutos);
         }
