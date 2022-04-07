@@ -1,4 +1,4 @@
-import { Small, Medium, Large, Label} from './style';
+import { Small, Medium, Large, Label} from './styles';
 
 function BallComponent ({image, label, size, link}){
     switch(size){
