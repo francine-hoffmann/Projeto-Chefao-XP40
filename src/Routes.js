@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Produtos from './pages/Produtos';
 import Footer from './components/Footer';
 import Contato from './pages/Contato/Contato'
+import Box from './pages/Box';
 
 function Routes() {
     return (
@@ -17,6 +18,7 @@ function Routes() {
                 <Route path='/' element={<Home />} />
                 <Route path='/produtos' element={<Produtos />} />
                 <Route path='/Contato' element={<Contato/>} />
+                <Route path='/Box' element={<Box/>} />
             </RoutesWrapper> 
             <Footer />     
         </BrowserRouter>

@@ -1,13 +1,13 @@
-import { Container, Wrapper, Logo, Menu, Page } from "./styles";
+import { Logo, Menu, Main } from "./styles";
 import { Link } from "react-router-dom";
 import "./header.css";
 import MENU from '../../assets/image/MENU.png';
 
 function Header() {
   return (    
-    <div className="main">
-      <div className="logo"><img src={MENU} alt='Background Image' /></div>
-      <div className="menu">
+    <Main>
+      <Logo><img src={MENU} alt='Background Image' /></Logo>
+      <Menu>
         <ul>
           <li>
           <Link to='/'>INÍCIO</Link>
@@ -24,8 +24,8 @@ function Header() {
           <Link to='contato'>CONTATO</Link>
           </li>
         </ul>
-      </div>
-    </div>
+      </Menu>
+    </Main>
   );
 }
 

@@ -5,7 +5,12 @@
     height: fit-content;
     /* background-color: green; */
     align-items: center;
+<<<<<<< Updated upstream
     padding: 0vh 0vh;
+=======
+    padding-top: 4vh;
+    padding-bottom: 1vh;
+>>>>>>> Stashed changes
     position: absolute;
     width: 100%;
     z-index: 100;
@@ -17,6 +22,7 @@
 
 .logo {
     margin-left: 2vw;
+    padding-bottom: 2vh;
 }
 
 ul {

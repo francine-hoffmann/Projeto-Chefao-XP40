@@ -1,8 +1,8 @@
-
 import ProductCarousel from "../../components/ProductCarousel";
 import Newsletter from "../../components/Newsletter";
 import Carousel from "../../components/Carousel";
 
+<<<<<<< Updated upstream
 import { Title, Wrapper, ContainerSeals, NatugamaBox } from './style';
 import BallComponent from "../../components/BallComponent";
 
@@ -40,8 +40,53 @@ function Home (){
 
 
     );
+=======
+import { Title, Wrapper, ContainerSeals } from "./style";
+import BallComponent from "../../components/BallComponent";
 
+import { Link } from "react-router-dom";
+
+import React from "react";
+>>>>>>> Stashed changes
+
+function Home() {
+  const [categories, setCategories] = React.useState(null);
+
+  React.useEffect(() => {
+    fetch("/categorias")
+      .then((res) => res.json())
+      .then((data) => setCategories(data));
+  }, []);
+
+  return (
+    <main>
+      <Carousel></Carousel>
+      <Title> PRODUTOS </Title>
+      <Wrapper>
+        {!categories
+          ? "Carregando categorias..."
+          : categories.map((categoria, index) => (
+              <BallComponent
+                image={categoria.link_imagem}
+                label={categoria.nome}
+                size="medium"
+                key={categoria.id}
+              />
+            ))}
+      </Wrapper>
+      <ContainerSeals>
+        <BallComponent image="\images\products\aromatizante.jpg" size="small" />
+        <BallComponent image="\images\products\aromatizante.jpg" size="small" />
+        <BallComponent image="\images\products\aromatizante.jpg" size="small" />
+      </ContainerSeals>
+      <Title> RECOMENDADOS </Title>
+      <ProductCarousel />
+      <Link to="/Box">
+        <img src="\images\natugamabox.png"></img>
+      </Link>
+      <Newsletter />
+    </main>
+  );
 }
 
-
-export default Home
+export default Home;
