@@ -13,6 +13,8 @@ import Sabonete from '../../assets/image/sabonete.png';
 import Escovas from '../../assets/image/escovas.png';
 import Revista from '../../assets/image/revista.png';
 
+import { Menu1 } from './style';
+
 function Box() {
   return (
     <div className="body">
