@@ -3,12 +3,26 @@ const { Produtos} = require('../models');
 
 const categoriaController = {
     listarCategorias: async (req, res) => {
+        var limiteQuery = parseInt(req.query.limite);
+        var paginaquery = parseInt(req.query.pagina);
+
+        let pagina = 1
+        let limite = 10000
+        
+        if (!isNaN(paginaquery)) {
+            pagina = paginaquery;
+        }
+
+        if (!isNaN(limiteQuery)) {
+            limite = limiteQuery
+        }
 
         const listaDeCategorias = await Categorias.findAll(
             {
-                include: Produtos
-            }
-        );
+                include: Produtos, 
+                limit: limite,
+                offset: ((pagina - 1) * limite)
+            });
 
         res.json(listaDeCategorias);
     },
