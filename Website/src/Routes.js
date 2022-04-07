@@ -11,7 +11,7 @@ import Box from './pages/Box';
 function Routes() {
     return (
         <BrowserRouter>
-        <Header />
+            <Header />
             <RoutesWrapper>
                 <Route path='/sobre' element={<Sobre />} />
                 <Route path='/newsletter' element={<Newsletter />} />
