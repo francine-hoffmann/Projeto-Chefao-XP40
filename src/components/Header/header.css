@@ -1,48 +1,12 @@
-.main {
-    display: flex;
-    justify-content: space-between;
-    background: rgba(0,0,0,0.15);
-    height: fit-content;
-    /* background-color: green; */
-    align-items: center;
-<<<<<<< Updated upstream
-    padding: 0vh 0vh;
-=======
-    padding-top: 4vh;
-    padding-bottom: 1vh;
->>>>>>> Stashed changes
-    position: absolute;
-    width: 100%;
-    z-index: 100;
-}
 
-.menu {
-    display: flex;
-}
 
-.logo {
-    margin-left: 2vw;
-    padding-bottom: 2vh;
-}
+
+
 
 ul {
     display: flex;
     gap: 2vw;
     margin-right: 2vw;
-}
-
-body, header, footer {
-    font-family: 'Poppins', sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    text-decoration: none;
-    color: white;
 }
 
 @media only screen and (max-width: 650px) {
