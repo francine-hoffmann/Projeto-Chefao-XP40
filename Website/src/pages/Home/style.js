@@ -11,6 +11,12 @@ export const Title = styled.h2 `
         text-align: center;
         margin: 0px;
     }
+
+    @media(min-width: 451px) and (max-width: 1024px){
+        padding: 50px 0px;
+        text-align: center;
+        margin: 0px;
+    }
 `
 
 export const Wrapper = styled.div `
@@ -25,6 +31,11 @@ export const Wrapper = styled.div `
         grid-template-columns: 100%;
         grid-gap: 10px 0px;
     }
+
+    @media(min-width: 451px) and (max-width: 1024px){
+        padding: 0px 20px;
+        grid-gap: 10px 0px;
+    }
 `
 
 export const ContainerSeals = styled.div `
@@ -36,6 +47,11 @@ export const ContainerSeals = styled.div `
     @media(max-width: 450px){
         padding: 20px 20px;
         grid-template-columns: 100%;
+        grid-gap: 30px 0px;
+    }
+
+    @media(min-width: 451px) and (max-width: 1024px){
+        padding: 20px 100px;
         grid-gap: 30px 0px;
     }
 `

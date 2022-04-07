@@ -9,6 +9,10 @@ export const FooterStyled = styled.footer`
   @media (max-width: 450px) { 
      padding: 30px 0px 20px 0px;
   }
+
+  @media(min-width: 451px) and (max-width: 1024px) { 
+    padding: 30px 0px 20px 0px;
+  }
 `;
 
 export const Container = styled.div`
@@ -20,6 +24,10 @@ export const Container = styled.div`
   @media (max-width: 450px) { 
     text-align: center;
     flex-direction: column;
+    font-size: 0.8rem;
+  }
+
+  @media(min-width: 451px) and (max-width: 1024px) { 
     font-size: 0.8rem;
   }
 `;
@@ -37,6 +45,12 @@ export const Info = styled.div`
       flex-direction: column;
     }
   }
+
+  @media(min-width: 451px) and (max-width: 1024px) { 
+    ul {
+      flex-direction: column;
+    }
+  }
 `;
 
 export const Social = styled.div`
@@ -48,7 +62,13 @@ export const Social = styled.div`
   }
 
   @media (max-width: 450px) { 
+    ul {
+      font-size: 40px;
+      justify-content: center;
+    }
+  }
 
+  @media(min-width: 451px) and (max-width: 1024px) { 
     ul {
       font-size: 40px;
       justify-content: center;
@@ -61,10 +81,19 @@ export const Copy = styled.p`
   @media (max-width: 450px) { 
     font-size: 0.8rem;
   }
+
+  text-align: center; 
+  @media(min-width: 451px) and (max-width: 1024px) { 
+    font-size: 0.8rem;
+  }
 `;
 
 export const H4Styled = styled.h4`
   @media (max-width: 450px) { 
+    font-size: 1.1rem;
+  }
+
+  @media(min-width: 451px) and (max-width: 1024px) { 
     font-size: 1.1rem;
   }
 `;
