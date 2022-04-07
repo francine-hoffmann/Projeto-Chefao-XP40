@@ -11,7 +11,6 @@ function Header() {
           <MenuLi><Link to='/'>INÍCIO</Link></MenuLi>
           <MenuLi><Link to='sobre'>SOBRE MIM</Link></MenuLi>
           <MenuLi><Link to='produtos'>PRODUTOS</Link></MenuLi>
-          <MenuLi><Link to='onde-comprar'>ONDE COMPRAR</Link></MenuLi>
           <MenuLi><Link to='contato'>CONTATO</Link></MenuLi>
         </MenuUl>
       </Menu>
