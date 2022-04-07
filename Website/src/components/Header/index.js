@@ -1,6 +1,5 @@
-import { Logo, Menu, Main } from "./styles";
+import { Logo, Menu, Main, MenuUl, MenuLi } from "./styles";
 import { Link } from "react-router-dom";
-import "./header.css";
 import MENU from '../../assets/image/MENU.png';
 
 function Header() {
@@ -8,22 +7,13 @@ function Header() {
     <Main>
       <Logo><img src={MENU} alt='Background Image' /></Logo>
       <Menu>
-        <ul>
-          <li>
-          <Link to='/'>INÍCIO</Link>
-          </li>
-          <li>
-          <Link to='sobre'>SOBRE MIM</Link>
-          </li>
-          <li>
-          <Link to='produtos'>PRODUTOS</Link>
-          </li>
-          <li>
-          <Link to='onde-comprar'>ONDE COMPRAR</Link></li>
-          <li>
-          <Link to='contato'>CONTATO</Link>
-          </li>
-        </ul>
+        <MenuUl>
+          <MenuLi><Link to='/'>INÍCIO</Link></MenuLi>
+          <MenuLi><Link to='sobre'>SOBRE MIM</Link></MenuLi>
+          <MenuLi><Link to='produtos'>PRODUTOS</Link></MenuLi>
+          <MenuLi><Link to='onde-comprar'>ONDE COMPRAR</Link></MenuLi>
+          <MenuLi><Link to='contato'>CONTATO</Link></MenuLi>
+        </MenuUl>
       </Menu>
     </Main>
   );
