@@ -5,6 +5,12 @@ export const Title = styled.h2 `
     padding: 50px 200px;
     color: #2F5435;
     font-size: 30px;
+
+    @media(max-width: 375px){
+        padding: 50px 0px;
+        text-align: center;
+        margin: 0px;
+    }
 `
 
 export const Wrapper = styled.div `
@@ -13,6 +19,12 @@ export const Wrapper = styled.div `
     grid-gap: 50px 0px;
     padding: 0 300px;
     padding-bottom: 50px;
+
+    @media(max-width: 375px){
+        padding: 0px 20px;
+        grid-template-columns: 100%;
+        grid-gap: 10px 0px;
+    }
 `
 
 export const ContainerSeals = styled.div `
@@ -20,4 +32,16 @@ export const ContainerSeals = styled.div `
     grid-template-columns: 33.33% 33.33% 33.33%;
     padding: 20px 300px;
     background-color: #F1F1F1;
+
+    @media(max-width: 375px){
+        padding: 20px 20px;
+        grid-template-columns: 100%;
+        grid-gap: 30px 0px;
+    }
+`
+
+export const NatugamaBox = styled.img `
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 `

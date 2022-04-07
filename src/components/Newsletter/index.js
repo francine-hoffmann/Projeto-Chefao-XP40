@@ -1,32 +1,29 @@
 import React from 'react';
-import './newsletter.css';
-
+import { Container, Section, H2Title, H5Title, Formulario, FormInput, FormLabel, FormButton } from "./styles";
 
 function Newsletter() {
     return (
-        <div className="newsletter">
-        <section>
-            <h2>
-                Cadastre-se e tenha sempre as últimas
-                atualizações dos produtos Natugama.
-            </h2>
-            <h5>
-                Prometemos que será periódica. Não vamos encher
-                sua caixa de e-mail á toa.
-            </h5>
-            <div className="formulario">
-                <form method="POST">
-                    <p>Seu nome</p>
-                    <input type="text" required></input>
-                    <br></br><br></br>
-                    <p>Seu e-mail</p>
-                    <input type="email" required></input>
-                    <br></br><br></br>
-                    <button>Cadastrar</button> 
-                </form>                
-            </div>                 
-        </section>
-    </div>
+        <Container>
+            <section>
+                <H2Title>
+                    Cadastre-se e tenha sempre as últimas
+                    atualizações dos produtos Natugama.
+                </H2Title>
+                <H5Title>
+                    Prometemos que será periódica. Não vamos encher
+                    sua caixa de e-mail á toa.
+                </H5Title>
+                <Formulario>
+                    <form method="POST">
+                        <FormLabel>Seu nome</FormLabel>
+                        <FormInput type="text" required></FormInput>
+                        <FormLabel>Seu e-mail</FormLabel>
+                        <FormInput type="email" required></FormInput>
+                        <FormButton>Cadastrar</FormButton> 
+                    </form>                
+                </Formulario>                 
+            </section>
+        </Container>
     )
         
         
