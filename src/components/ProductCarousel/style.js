@@ -9,6 +9,10 @@ export const Container = styled.div`
     @media(max-width: 450px){
         padding: 0px 10vw;
     }
+
+    @media(min-width: 451px) and (max-width: 1024px){
+        padding: 0px 10vw;
+    }
 `
 export const Item = styled.div `
     display: flex;
