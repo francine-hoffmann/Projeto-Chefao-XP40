@@ -4,6 +4,7 @@ import Carousel from "../../components/Carousel";
 
 import { Title, Wrapper, ContainerSeals, NatugamaBox } from './style';
 import BallComponent from "../../components/BallComponent";
+import { Link } from "react-router-dom";
 
 import React from "react";
 
@@ -32,7 +33,7 @@ function Home (){
             </ContainerSeals>           
             <Title> RECOMENDADOS </Title>
             <ProductCarousel/> 
-            <NatugamaBox src="\images\natugama-box.jpg"></NatugamaBox>
+            <Link to="/Box"><NatugamaBox src="\images\natugama-box.jpg"></NatugamaBox></Link>
             <Newsletter />
 
         </main>
