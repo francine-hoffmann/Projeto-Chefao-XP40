@@ -14,7 +14,7 @@ export const H2Title = styled.h2`
   text-align: center;
   color: #2b2b2b;
 
-  @media(max-width: 375px){
+  @media(max-width: 450px){
     font-size: 18px;
   }
 `;
@@ -27,7 +27,7 @@ export const H5Title = styled.h5`
   justify-content: center;
   color: #2b2b2b; 
 
-  @media(max-width: 375px){
+  @media(max-width: 450px){
     padding: 0px 20px;
     align-items: center;
     text-align: center;
@@ -50,7 +50,7 @@ export const FormInput = styled.input`
   margin-top: -15px;
   margin-bottom: 40px;  
   
-  @media(max-width: 375px){
+  @media(max-width: 450px){
     width: 200px;
     align-items: center;
     text-align: center;

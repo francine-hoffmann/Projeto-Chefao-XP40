@@ -6,7 +6,7 @@ export const FooterStyled = styled.footer`
   color: white;
   width: 100%;
 
-  @media (max-width: 375px) { 
+  @media (max-width: 450px) { 
      padding: 30px 0px 20px 0px;
   }
 `;
@@ -17,7 +17,7 @@ export const Container = styled.div`
   gap: 20px;
   vertical-align: auto;
 
-  @media (max-width: 375px) { 
+  @media (max-width: 450px) { 
     text-align: center;
     flex-direction: column;
     font-size: 0.8rem;
@@ -32,7 +32,7 @@ export const Info = styled.div`
     list-style: none;
   }
 
-  @media (max-width: 375px) { 
+  @media (max-width: 450px) { 
     ul {
       flex-direction: column;
     }
@@ -47,7 +47,7 @@ export const Social = styled.div`
     list-style: none;
   }
 
-  @media (max-width: 375px) { 
+  @media (max-width: 450px) { 
 
     ul {
       font-size: 40px;
@@ -58,13 +58,13 @@ export const Social = styled.div`
 
 export const Copy = styled.p`
   text-align: center; 
-  @media (max-width: 375px) { 
+  @media (max-width: 450px) { 
     font-size: 0.8rem;
   }
 `;
 
 export const H4Styled = styled.h4`
-  @media (max-width: 375px) { 
+  @media (max-width: 450px) { 
     font-size: 1.1rem;
   }
 `;

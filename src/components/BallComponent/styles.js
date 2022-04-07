@@ -8,7 +8,7 @@ export const Small = styled.img `
     margin-left: auto;
     margin-right: auto;
 
-    @media(max-width: 375px){
+    @media(max-width: 450px){
         width: 100px;
         height: 100px;
     }
@@ -22,7 +22,7 @@ export const Medium = styled.img `
     margin-left: auto;
     margin-right: auto;
 
-    @media(max-width: 375px){
+    @media(max-width: 450px){
         width: 150px;
         height: 150px;
     }
@@ -36,7 +36,7 @@ export const Large = styled.img `
     margin-left: auto;
     margin-right: auto;    
     
-    @media(max-width: 375px){
+    @media(max-width: 450px){
         width: 250px;
         height: 250px;
     }
@@ -48,7 +48,7 @@ export const Label = styled.h3 `
     text-align: center;
     color: #000;
 
-    @media(max-width: 375px){
+    @media(max-width: 450px){
         margin-top: 1vh;
     }
 `
