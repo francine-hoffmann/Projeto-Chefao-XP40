@@ -1,0 +1,47 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16vh;
+}
+
+.stamp h3{
+    margin-left: 10vw;
+    margin-bottom: -4vh;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.stamp p {
+    margin-left: 1vw;
+    text-align: center;
+}
+
+.menu2 {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin-bottom: 12vh;
+}
+
+.como-funciona {
+    margin-top: 11vh;
+    margin-left: 10vw;
+    margin-bottom: 6vh;
+}
+
+.OqueVem {
+    margin-left: 8vw;
+    margin-bottom: 6vh;
+}
+
+.stamp2 p {
+    margin-top: 2vh;
+    margin-left: 0vw;
+    text-align: center;
+}
