@@ -45,3 +45,31 @@
     margin-left: 0vw;
     text-align: center;
 }
+
+@media only screen and (max-width: 450px) {
+
+    .menu1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    .menu1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
