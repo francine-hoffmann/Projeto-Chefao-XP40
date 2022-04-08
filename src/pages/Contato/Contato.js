@@ -2,6 +2,11 @@ import React, { useState } from 'react'
 import * as S from "./style"
 
   function Contato() {
+    
+    var header = document.getElementById("header");
+    if(header){
+      header.classList.remove("solidBackground");
+    }
   const [nome, setNome] = useState("")
   const [telefone, setTelefone] = useState("")
   const [email, setEmail] = useState("")

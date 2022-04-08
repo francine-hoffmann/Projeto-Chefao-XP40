@@ -3,6 +3,10 @@ import React from "react";
 import { Container, Imagem, ComoFunciona, Menu1, Stamp, SubTitulo, Texto, OqueVem, Stamp2, Menu2 } from './style';
 
 function Box() {
+    var header = document.getElementById("header");
+    if(header){
+        header.classList.remove("solidBackground");
+    }
   return (
     <Container>
       <Imagem src="\images\box.png" />

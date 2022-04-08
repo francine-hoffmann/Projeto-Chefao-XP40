@@ -9,6 +9,11 @@ import { Link } from "react-router-dom";
 import React from "react";
 
 function Home (){
+    
+    var header = document.getElementById("header");
+    if(header){
+        header.classList.remove("solidBackground");
+    }
     const [categories, setCategories] = React.useState(null);
 
     React.useEffect(() => {
