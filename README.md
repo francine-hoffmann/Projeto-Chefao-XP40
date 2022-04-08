@@ -116,7 +116,7 @@
 </br>
 <section class=”Layout”>
                                                                                                                             <h2> :thought_balloon: Layout </h2>
-    <p> Acesse o layout do projeto por <a href=””> aqui </a> </p>
+    <p> Acesse o layout do projeto por <a href="https://www.figma.com/file/hdB44a04wxs4B2jtlTQAVo/GAMA-CHEF%C3%83O-UI-%2340"> aqui </a> </p>
 <section>
 
 
