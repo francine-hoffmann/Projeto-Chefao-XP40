@@ -22,6 +22,7 @@ export const NavProdutos = styled.ul `
 export const NavLink = styled.li `
     color: #000;
     cursor: pointer;
+    text-decoration: none;
 
     &:hover {
     text-decoration: underline ;
@@ -50,3 +51,10 @@ export const Wrapper = styled.div `
 
 
 export const Imagem = styled.img ``
+
+
+export const NatugamaBox = styled.img `
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+`
