@@ -1,6 +1,6 @@
 import { Link, useSearchParams } from 'react-router-dom';
 import React from 'react';
-import { Container, Column, ContainerSeals, ContainerPassos, ContainerComoUsar, ContainerAvaliacoes, Imagem, Item } from './style.js'
+import { Container, Column, ContainerSeals, ContainerPassos, ContainerComoUsar, ContainerAvaliacoes, Imagem, Item, Figure } from './style.js'
 import BallComponent from "../../components/BallComponent";
 import RatingComponent from "../../components/RatingComponent";
 import Carousel from "react-elastic-carousel";
@@ -50,7 +50,7 @@ function DetalhesProduto() {
                         <Imagem src={produto.link_imagem}></Imagem>
                     </Column>
                     <Column>
-                        <div>
+                        <Figure>
                             <h1>{produto.nome}</h1>
                             <h2>Descrição</h2>
                             <p>{produto.descricao}</p>
@@ -61,7 +61,7 @@ function DetalhesProduto() {
                                 <BallComponent image="\images\natural.png" size="small" />
                                 <BallComponent image="\images\ecol-correto.png" size="small" />
                             </ContainerSeals>
-                        </div>
+                        </Figure>
                     </Column>
                 </Container>
                 <ContainerComoUsar>
