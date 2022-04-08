@@ -1,11 +1,10 @@
 import { Logo, Menu, Main, MenuUl, MenuLi } from "./styles";
 import { Link } from "react-router-dom";
-import MENU from '../../assets/image/MENU.png';
 
 function Header() {
   return (    
     <Main>
-      <Logo><img src={MENU} alt='Background Image' /></Logo>
+      <Logo><img src="\images\menu.png" alt="logo" /></Logo>
       <Menu>
         <MenuUl>
           <MenuLi><Link to='/'>INÍCIO</Link></MenuLi>
