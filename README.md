@@ -6,25 +6,20 @@
   <p> Como projeto final da conclusão do nanodregree da <a href=””> Gama Academy </a> nosso desafio foi criar um produto do zero. Uma apresentação de portfólio navegável e interativo de um novo empreendimento.
   </p>
 </section>
+</br>
+<section class=”Sobre"><h2> :herb: Projeto </h2>
 
-<section class=”Sobre”>
-
-  <h2> Projeto </h2>
-
-<p>A Natugama  
- proponhe uma nova visão sobre a relevância
-          no desenvolvimento de um produto natural que não somente nos cuide,
-          mas considere cuidados para a sua origem. </p>
-
+<p> A Natugama, especialista em cosméticos naturais e vejamos. Ela proponhe uma nova visão sobre a relevância no desenvolvimento de um produto natural que não somente nos cuide, mas considere cuidados para a sua origem. </p>
+</br>
 
 <section class="devs">
-  <h2> Desenvolvedores </h2>
+  <h2>:four_leaf_clover: Desenvolvedores </h2>
 
 <table>
     <tr>
         <td align=”center”>
-            <a href=”https://github.com/lessa73”>
-                <img src=”https://user-images.githubusercontent.com/88943268/162409211-f616c592-d008-4972-ad45-bba7a882ed95.jpeg">
+            <a href="https://github.com/lessa73">
+                <img src="https://user-images.githubusercontent.com/88943268/162409211-f616c592-d008-4972-ad45-bba7a882ed95.jpeg">
                     <sub>
                         <b> Alexandre Lessa </b>
                     </sub>
@@ -32,16 +27,16 @@
         </td>
 
 <td align=”center”>
-            <a href="https://github.com/francine-hoffmann”>
-                <img src=”https://user-images.githubusercontent.com/88943268/148317758-ae405a0d-8b5f-455a-9944-46334e378815.jpg">
+            <a href="https://github.com/francine-hoffmann">
+                <img src="https://user-images.githubusercontent.com/88943268/148317758-ae405a0d-8b5f-455a-9944-46334e378815.jpg">
                     <sub>
                         <b> Francine Hoffmann </b>
                     </sub>
             </a>
         </td>
 <td align=”center”>
-            <a href="https://github.com/larysslopes”>
-                <img src=”https://user-images.githubusercontent.com/88943268/148317763-0f02b909-0919-4418-94a5-ea5ae0314af8.jpg">
+            <a href="https://github.com/larysslopes">
+                <img src="https://user-images.githubusercontent.com/88943268/148317763-0f02b909-0919-4418-94a5-ea5ae0314af8.jpg">
                     <sub>
                         <b> Larissa Lopes </b>
                     </sub>
@@ -49,7 +44,7 @@
         </td>
 
 <td align=”center”>
-            <a href="https://github.com/Leonardo-SARTO-Conselheiro”>
+            <a href="https://github.com/Leonardo-SARTO-Conselheiro">
                 <img src="https://user-images.githubusercontent.com/88943268/162409830-a90464a4-ea48-4236-8d10-f0f3be671cd3.jpeg">
                     <sub>
                         <b> Leonardo Sarto  </b>
@@ -57,7 +52,7 @@
             </a>
         </td>
 <td align=”center”>
-            <a href="https://github.com/lucasgarcia561”>
+            <a href="https://github.com/lucasgarcia561">
                 <img src="https://user-images.githubusercontent.com/88943268/162411014-6636fe1d-df86-466a-87e0-0ef483f06bba.jpeg">
                     <sub>
                         <b> Lucas Garcia  </b>
@@ -65,7 +60,7 @@
             </a>
         </td>
 <td align=”center”>
-            <a href=”https://github.com/luizsaulo”>
+            <a href="https://github.com/luizsaulo">
                 <img src="https://user-images.githubusercontent.com/88943268/162411313-26914d77-1f2b-4347-b50c-65477cb229b4.jpeg">
                     <sub>
                         <b> Luiz Saulo  </b>
@@ -75,16 +70,11 @@
 
     
 </table>
-
-
-
-
+</br>
 </section>
 
-
 <section class=”tecnologias”>
-    <h2> Tecnologias utilizadas </h2>
-
+    <h2> :dart: Tecnologias utilizadas </h2>
 <ul>
     <li> React </li>
     <li> HTML </li>
@@ -94,15 +84,15 @@
     
 
 </section>
-
+</br>
 <section class=”Site”>
-<h2> Site </h2>
+<h2> :clapper: Site </h2>
 <p> Acesse o site por <a href=””> aqui </a> </p>
 
 </section>
 
 <section class="designer">
-
+ <h2> :sparkler: Designers </h2>
 <table>
     <tr>
 <td align=”center”>
@@ -123,9 +113,9 @@
         </td>
 </table>
 
-
+</br>
 <section class=”Layout”>
-                                                                                                                                <h2> Layout </h2>
+                                                                                                                            <h2> :thought_balloon: Layout </h2>
     <p> Acesse o layout do projeto por <a href=””> aqui </a> </p>
 <section>
 
