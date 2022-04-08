@@ -1,72 +1,60 @@
 import React from "react";
-import ComoFunciona from "../../assets/image/Como_funciona.png";
-import Folha2 from "../../assets/image/folha2.png";
-import Mulher2 from "../../assets/image/mulher2.png";
-import Caixa2 from "../../assets/image/caixa2.png";
 
-import OqueVem from "../../assets/image/O_que_vem.png";
-
-import "./box.css";
-
-import Potinho from '../../assets/image/potinho.png';
-import Sabonete from '../../assets/image/sabonete.png';
-import Escovas from '../../assets/image/escovas.png';
-import Revista from '../../assets/image/revista.png';
-
-import { Menu1 } from './style';
+import { Container, Imagem, ComoFunciona, Menu1, Stamp, SubTitulo, Texto, OqueVem, Stamp2, Menu2 } from './style';
 
 function Box() {
   return (
-    <div className="body">
-      <div className="image"></div>
-        <div className="como-funciona">
-            <img src={ComoFunciona} alt="Como funciona"></img>
-        </div>
+    <Container>
+      <Imagem src="\images\box.png" />
+        <ComoFunciona>
+            <Imagem src="\images\Como-funciona.png" alt="Como funciona" />
+        </ComoFunciona>
 
-        <div className="menu1">
-            <div className="stamp">
-                <h3>Descreva</h3>
-                <img src={Folha2}></img>
-                <p>Preciso saber um pouco sobre vocês.<br />Conte-me o tipo de pele, cabelo e <br />preferências.</p>
-            </div>
+        <Menu1>
+            <Stamp>
+                <SubTitulo>Descreva</SubTitulo>
+                <Imagem src="\images\folha2.png" />
+                <Texto>Preciso saber um pouco sobre vocês.Conte-me o tipo de pele, cabelo e preferências.</Texto>
+            </Stamp>
 
-            <div className="stamp">
-                <h3>Escolha</h3>
-                <img src={Mulher2}></img>
-                <p>Veja as minhas opções de plano e <br />assine o que fazer mais sentido ao<br />seu caso.</p>
-            </div>
+            <Stamp>
+                <SubTitulo>Escolha</SubTitulo>
+                <Imagem src="\images\mulher2.png" />
+                <Texto>Veja as minhas opções de plano e assine o que fazer mais sentido ao seu caso.</Texto>
+            </Stamp>
 
-            <div className="stamp">
-                <h3>Receba</h3>
-                <img src={Caixa2}></img>
-                <p>A melhor hora: receba a box, se<br />surpreenda com os meus produtos e<br />sinta-se bem ao usá-los.</p>
-            </div>           
-        </div>
+            <Stamp>
+                <SubTitulo>Receba</SubTitulo>
+                <Imagem src="\images\caixa2.png" />
+                <Texto>A melhor hora: receba a box, se surpreenda com os meus produtos e sinta-se bem ao usá-los.</Texto>
+            </Stamp>            
+        </Menu1>
 
-        <div className="OqueVem">
-            <img src={OqueVem} alt='O que vem'></img>
-        </div>
+        <OqueVem>
+            <Imagem src="\images\OqueVem.png" alt='O que vem' />
+        </OqueVem>
 
-        <div className="menu2">
-            <div className='stamp2'>
-                <img src={Potinho}></img>
-                <p>Produtos naturais <br/> diversificados para: rosto <br/> cabelo, corpo, etc.</p>
-            </div>
-            <div className='stamp2'>
-                <img src={Sabonete}></img>
-                <p>Todos cuidadosamente <br/> selecionados com base no <br/> seu perfil.</p>
-            </div>
-            <div className='stamp2'>
-                <img src={Escovas}></img>
-                <p>Acessório surpresa porque <br/> sou grata pela sua <br/> preferência.</p>
-            </div>
-            <div className='stamp2'>
-                <img src={Revista}></img>
-                <p>Revista Natugama, onde te <br/> dou dicas de cuidados <br/> sustentáveis e conscientes.</p>
-            </div>
-        </div>
+        <Menu2>
+            <Stamp2>
+                <Imagem src="\images\potinho.png" />
+                <Texto>Produtos naturais <br/> diversificados para: rosto <br/> cabelo, corpo, etc.</Texto>
+            </Stamp2>
+            <Stamp2>
+                <Imagem src="\images\sabonete.png" />
+                <Texto>Todos cuidadosamente <br/> selecionados com base no <br/> seu perfil.</Texto>
+            </Stamp2>
+            <Stamp2>
+                <Imagem src="\images\escova.png" /><br/>
+                <Texto>Acessório surpresa porque <br/> sou grata pela sua <br/> preferência.</Texto>
+            </Stamp2>
+            <Stamp2>
+                <Imagem src="\images\revista.png"/>
+                <Texto>Revista Natugama, onde te <br/> dou dicas de cuidados <br/> sustentáveis e conscientes.</Texto>
 
-    </div>
+            </Stamp2>
+        </Menu2>
+
+    </Container>
   );
 }
 

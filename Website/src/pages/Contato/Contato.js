@@ -7,8 +7,8 @@ import * as S from "./style"
   const [email, setEmail] = useState("")
   const [mensagem, setMensagem] = useState("")
   function adicionarContato (event){ 
-    event.preventDefault()
-  
+    
+    
     const body = {
       nome,
       telefone,
@@ -16,6 +16,42 @@ import * as S from "./style"
       mensagem,
     }
     console.log(body)
+
+
+      let handleSubmit = async (e) => {
+          e.preventDefault();
+          console.log(JSON.stringify({
+              nome: nome,
+              telefone: telefone,
+              email: email,
+              mensagem: mensagem
+          }));
+          try {
+            let res = await fetch("/contato", {
+              method: "POST",
+              headers: {
+                  "Content-Type": "application/json"
+              },
+              body: JSON.stringify({
+                nome: nome,
+                telefone: telefone,
+                email: email,
+                mensagem: mensagem
+              }),
+            });
+            if (res.status === 200 || res.status === 201) {
+              setNome("");
+              setTelefone("");
+              setEmail("");
+              setMensagem("");
+            }
+          } catch (err) {
+            console.log(err);
+          }
+        };
+  
+  
+    
   
   }
      
