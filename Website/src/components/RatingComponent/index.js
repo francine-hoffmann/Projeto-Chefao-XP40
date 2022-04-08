@@ -13,7 +13,7 @@ function RatingComponent ({productName, productImage, clientName, rating, messag
             </Column>
             <Column>
                 <div>
-                    <Rating allowHover={false} initialValue={5} fillColor={'#90BF62'} readonly></Rating>
+                    <Rating allowHover={false} initialValue={rating} fillColor={'#90BF62'} readonly></Rating>
                     <ClientName>{clientName}</ClientName>
                     <Message>"{message}"</Message>
                     <CheckoutMore>Mais comentários sobre o porquê acho o produto incrível.</CheckoutMore>

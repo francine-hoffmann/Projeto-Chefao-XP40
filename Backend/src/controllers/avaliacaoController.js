@@ -4,7 +4,7 @@ const { Produtos } = require('../models');
 const avaliacaoController = {
     listarAvaliacao: async (req, res) => {
 
-        const listaDeAvaliacao = await Avaliacao.findAll();
+        const listaDeAvaliacao = await Avaliacao.findAll({include: Produtos});
 
         res.json(listaDeAvaliacao);
            

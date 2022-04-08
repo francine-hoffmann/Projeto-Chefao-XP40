@@ -2,6 +2,11 @@ import React from "react";
 import {Imagem, Container, Titulo, SubTitulo, Texto, Card1, Card2, Card3} from "./style.js"
 
 function Sobre() {
+  
+  var header = document.getElementById("header");
+  if(header){
+    header.classList.remove("solidBackground");
+  }
   return (
     <main> 
       <Imagem src="\images\sobre.png" /> 

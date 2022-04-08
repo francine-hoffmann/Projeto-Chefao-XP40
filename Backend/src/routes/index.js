@@ -12,7 +12,7 @@ routes.get('/produtos', produtoController.listarProduto);
 routes.post('/produtos', produtoController.cadastrarProduto);  
 routes.delete('/produtos/:id', produtoController.deletarProduto);
 routes.put('/produtos/:id', produtoController.atualizarProduto);
-routes.get('/produtos/:nome', produtoController.listarProdutoPorNome);
+routes.get('/produtos/:id', produtoController.listarProdutoPorId);
 routes.get('/produtos/categoria/:CategoriaId', produtoController.listarProdutoPorCategoria);
 
 routes.get('/categorias', categoriaController.listarCategorias);

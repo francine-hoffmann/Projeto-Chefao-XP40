@@ -27,12 +27,12 @@ const produtoController = {
 
         res.json(listaDeProdutos);
     },
-    listarProdutoPorNome: async (req, res) => {
-        const { nome } = req.params;
+    listarProdutoPorId: async (req, res) => {
+        const { id } = req.params;
 
         const listaDeProdutos = await Produtos.findOne({
             where: {
-               nome: nome
+               id: id
             }})
 
         res.json(listaDeProdutos);
