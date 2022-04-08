@@ -32,7 +32,7 @@
         </td>
 
 <td align=”center”>
-            <a href=”https://github.com/francine-hoffmann”>
+            <a href="https://github.com/francine-hoffmann”>
                 <img src=”https://user-images.githubusercontent.com/88943268/148317758-ae405a0d-8b5f-455a-9944-46334e378815.jpg">
                     <sub>
                         <b> Francine Hoffmann </b>
@@ -40,7 +40,7 @@
             </a>
         </td>
 <td align=”center”>
-            <a href=”https://github.com/larysslopes”>
+            <a href="https://github.com/larysslopes”>
                 <img src=”https://user-images.githubusercontent.com/88943268/148317763-0f02b909-0919-4418-94a5-ea5ae0314af8.jpg">
                     <sub>
                         <b> Larissa Lopes </b>
@@ -49,7 +49,7 @@
         </td>
 
 <td align=”center”>
-            <a href=”https://github.com/Leonardo-SARTO-Conselheiro”>
+            <a href="https://github.com/Leonardo-SARTO-Conselheiro”>
                 <img src="https://user-images.githubusercontent.com/88943268/162409830-a90464a4-ea48-4236-8d10-f0f3be671cd3.jpeg">
                     <sub>
                         <b> Leonardo Sarto  </b>
@@ -57,7 +57,7 @@
             </a>
         </td>
 <td align=”center”>
-            <a href=”https://github.com/lucasgarcia561”>
+            <a href="https://github.com/lucasgarcia561”>
                 <img src="https://user-images.githubusercontent.com/88943268/162411014-6636fe1d-df86-466a-87e0-0ef483f06bba.jpeg">
                     <sub>
                         <b> Lucas Garcia  </b>
@@ -73,7 +73,7 @@
             </a>
         </td>
 
-    </tr>
+    
 </table>
 
 
@@ -83,7 +83,7 @@
 
 
 <section class=”tecnologias”>
-    <h2> Tecnologias utilizadas <h2>
+    <h2> Tecnologias utilizadas </h2>
 
 <ul>
     <li> React </li>
@@ -121,12 +121,11 @@
                     </sub>
             </a>
         </td>
-
-    </tr>
 </table>
 
 
 <section class=”Layout”>
+                                                                                                                                <h2> Layout </h2>
     <p> Acesse o layout do projeto por <a href=””> aqui </a> </p>
 <section>
 
