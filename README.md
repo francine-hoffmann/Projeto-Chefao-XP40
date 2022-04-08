@@ -87,11 +87,11 @@
 </br>
 <section class=”Site”>
 <h2> :clapper: Site </h2>
-<p> Acesse o site por <a href=””> aqui </a> </p>
+<p> Acesse o site por <a href=”https://gama-chefao-website.herokuapp.com/”> aqui </a> </p>
 
 </section>
                                                                                                                                  </br>
-
+</br>
 <section class="designer">
  <h2> :sparkler: Designers </h2>
 <table>
