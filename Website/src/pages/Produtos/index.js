@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
 
-import { Titulo, NavProdutos, NavLink, Wrapper, Container, Titulo2, Button, NatugamaBox} from './style.js'
+import { Imagem, Imagem2, Titulo, NavProdutos, NavLink, Wrapper, Container, Titulo2, Button, NatugamaBox, NatugamaBox2} from './style.js'
 import BallComponent from "../../components/BallComponent";
 
 function Produtos (){
@@ -40,7 +40,8 @@ function Produtos (){
 
     return(
         <main> 
-            <img src="\images\produtos.png" />
+            <Imagem src="\images\produtos.png" />
+            <Imagem2 src="\images\produtoResp.png" />
 
             <Titulo> Produtos </Titulo>
 
@@ -63,9 +64,9 @@ function Produtos (){
             </Wrapper>
 
             <Link to="/Box"><NatugamaBox src="\images\natugama-box.jpg"></NatugamaBox></Link>
-            <Container>
-                    <Titulo2> Veja o que nosso clientes estão dizendo: </Titulo2>
-            </Container>
+            <Link to="/Box"><NatugamaBox2 src="\images\boxResp.png"></NatugamaBox2></Link>
+
+            
         </main>
     )
 }

@@ -22,6 +22,17 @@ export const Menu1 = styled.h2 `
 
 export const Imagem = styled.img `
 
+    @media (max-width: 450px) {
+        display: none;
+    }
+`
+
+export const Imagem2= styled.img `
+        display: none;
+
+    @media (max-width: 450px) {
+        visibility: visible;
+    }
 `
 
 export const ComoFunciona = styled.div `
@@ -31,8 +42,18 @@ export const ComoFunciona = styled.div `
 `
 
 export const Stamp = styled.div`
-    font-size: 4vh;
-    gap: 1%;
+    font-size: 3vh;
+    padding: 3%;
+    width: 30%;
+
+    @media (max-width: 450px) {
+        padding:1%;
+        width: 70%;
+        font-size: 2vh;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
 `
 
 export const SubTitulo = styled.h3 `

@@ -2,15 +2,28 @@ import styled from "styled-components";
 
 
 export const Imagem = styled.img `
-    background-image: url(../../assets/image/Group142.png);
     height: 500px;
     width: 1440px;
+
+    @media (max-width: 450px) {
+        display: none;
+    }
+`
+
+export const Imagem2= styled.img `
+        display: none;
+
+    @media (max-width: 450px) {
+        visibility: visible;
+    }
 `
 
 export const Container = styled.body`
     display: block;   
     /* background-image: url(../../assets/image/Group142.png);  */
     background-repeat: no-repeat;
+
+
 
 `
 export const Texto = styled.p `

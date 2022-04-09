@@ -1,5 +1,22 @@
 import styled from "styled-components";
 
+export const Imagem = styled.img `
+    height: 500px;
+    width: 1440px;
+
+    @media (max-width: 450px) {
+        display: none;
+    }
+`
+
+export const Imagem2= styled.img `
+        visibility: hidden;
+
+    @media (max-width: 450px) {
+        visibility: visible;
+    }
+`
+
 export const Titulo = styled.h1 `
     margin: 40px;
 `
@@ -51,7 +68,23 @@ export const NatugamaBox = styled.img `
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    @media (max-width: 450px) {
+        display: none;
+    }
 `
+
+export const NatugamaBox2 = styled.img `
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: hidden;
+
+@media (max-width: 450px) {
+    visibility: visible;
+}
+`
+
 
 export const Button = styled.button`
   padding: 8px 15px;

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, Imagem, ComoFunciona, Menu1, Stamp, SubTitulo, Texto, OqueVem, Stamp2, Menu2 } from './style';
+import { Container, Imagem, Imagem2, ComoFunciona, Menu1, Stamp, SubTitulo, Texto, OqueVem, Stamp2, Menu2 } from './style';
 
 function Box() {
     var header = document.getElementById("header");
@@ -9,7 +9,8 @@ function Box() {
     }
   return (
     <Container>
-      <Imagem src="\images\box\box.png" />
+      <Imagem src="\images\box.png" />
+      <Imagem2 src="\images\boxResp2.png" />
         <ComoFunciona>
             <Imagem src="\images\box\Como_funciona.png" alt="Como funciona" />
         </ComoFunciona>
