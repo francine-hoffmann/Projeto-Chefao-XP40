@@ -1,23 +1,26 @@
 import styled from "styled-components";
+
+export const Imagem = styled.img `
+    height: 500px;
+    width: 1440px;
+
+    @media (max-width: 450px) {
+        display: none;
+    }
+`
+
+export const Imagem2= styled.img `
+        display: none;
+
+    @media (max-width: 450px) {
+        visibility: visible;
+    }
+`
+
 export const Container = styled.div `
 width: 100%;
-min-height: 100vh;
->.banner {
-    width: 100%;
-    height: 500px;
-    background-image: url(/images/contato.png.png);
-    
-    @media (
-        max-width: 769px
-        ){
-            >.banner {
-                height: 250px;
-                background-size: cover;
-            }      
-            
-        }
-        
-    }`
+min-height: 100vh;    
+    `
     
     export const Conteudo = styled.main `
     width: 100%;

@@ -1,5 +1,5 @@
 import React from "react";
-import {Imagem, Container, Titulo, SubTitulo, Texto, Card1, Card2, Card3} from "./style.js"
+import {Imagem, Imagem2, Container, Titulo, SubTitulo, Texto, Card1, Card2, Card3} from "./style.js"
 
 function Sobre() {
   
@@ -10,6 +10,7 @@ function Sobre() {
   return (
     <main> 
       <Imagem src="\images\sobre.png" /> 
+      <Imagem2 src="\images\sobreResp.png" /> 
 
         <Container>
           <Card1>

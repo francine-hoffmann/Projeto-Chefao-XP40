@@ -62,7 +62,9 @@ import * as S from "./style"
      
   return (
     <S.Container>
-      <div className='banner'> </div>
+        <S.Imagem src="\images\contato.png" />
+        <S.Imagem2 src="\images\contatoResp.png" />
+        
       <S.Conteudo>
         <article className='section-contato'>
           <h3>

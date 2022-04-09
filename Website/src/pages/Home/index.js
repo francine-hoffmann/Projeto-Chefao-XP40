@@ -2,7 +2,7 @@ import ProductCarousel from "../../components/ProductCarousel";
 import Newsletter from "../../components/Newsletter";
 import Carousel from "../../components/Carousel";
 
-import { Title, Wrapper, ContainerSeals, NatugamaBox } from './style';
+import { Title, Wrapper, ContainerSeals, NatugamaBox, NatugamaBox2 } from './style';
 import BallComponent from "../../components/BallComponent";
 import { Link } from "react-router-dom";
 
@@ -39,6 +39,7 @@ function Home (){
             <Title> RECOMENDADOS </Title>
             <ProductCarousel/> 
             <Link to="/Box"><NatugamaBox src="\images\natugama-box.jpg"></NatugamaBox></Link>
+            <Link to="/Box"><NatugamaBox2 src="\images\boxResp.png"></NatugamaBox2></Link>
             <Newsletter />
 
         </main>

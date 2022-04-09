@@ -56,8 +56,24 @@ export const ContainerSeals = styled.div `
     }
 `
 
+
 export const NatugamaBox = styled.img `
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    @media (max-width: 450px) {
+        display: none;
+    }
+`
+
+export const NatugamaBox2 = styled.img `
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: hidden;
+
+@media (max-width: 450px) {
+    visibility: visible;
+}
 `
