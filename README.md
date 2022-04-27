@@ -9,8 +9,11 @@
 </br>
 <section class=”Sobre"><h2> :herb: Projeto </h2>
 
-<p> A Natugama, especialista em cosméticos naturais e vejamos. Ela proponhe uma nova visão sobre a relevância no desenvolvimento de um produto natural que não somente nos cuide, mas considere cuidados para a sua origem. </p>
+<p> A Natugama, especialista em cosméticos naturais e veganos. Ela proponhe uma nova visão sobre a relevância no desenvolvimento de um produto natural que não somente nos cuide, mas considere cuidados para a sua origem. </p>
 </br>
+<img src="https://user-images.githubusercontent.com/88943268/165409916-fff3ebee-961a-42b8-80b7-88024efce964.png">
+</br></br>
+                      
 
 <section class="devs">
   <h2>:four_leaf_clover: Desenvolvedores </h2>
@@ -77,9 +80,11 @@
     <h2> :dart: Tecnologias utilizadas </h2>
 <ul>
     <li> React </li>
-    <li> HTML </li>
-    <li> CSS </li>
+    <li> Styled Components </li>
     <li> JavaScript </li>
+    <li> SQL </li>
+    <li> NodeJS </li>
+    <li> Express </li>
   </ul>
     
 
@@ -118,5 +123,4 @@
     <h2> :thought_balloon: Layout </h2>
     <p> Acesse o layout do projeto por <a href="https://www.figma.com/file/hdB44a04wxs4B2jtlTQAVo/GAMA-CHEF%C3%83O-UI-%2340"> aqui </a> </p>
 <section>
-
 
